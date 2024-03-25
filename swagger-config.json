@@ -1,0 +1,25 @@
+{
+  "stage-eu-alpha": {
+    "url": "https://public-api.bravo.stageeu.software.clearcorrect.com/v2/api-docs",
+    "fail-build-on-errors": true
+  },
+  "stage-eu-bravo": {
+    "url": "https://public-api.bravo.stageeu.software.clearcorrect.com/v2/api-docs",
+    "fail-build-on-errors": true
+  },
+  "stage-eu-charlie": {
+    "url": "https://public-api.bravo.stageeu.software.clearcorrect.com/v2/api-docs",
+    "fail-build-on-errors": true
+  },
+  "stage-eu-delta": {
+    "url": "https://public-api.bravo.stageeu.software.clearcorrect.com/v2/api-docs",
+    "fail-build-on-errors": true
+  },
+  "stage-eu-cert": {
+    "url": "https://public-api.bravo.stageeu.software.clearcorrect.com/v2/api-docs",
+    "fail-build-on-errors": false
+  },
+  "skip-endpoints": [
+    "/actuator"
+  ]
+}
