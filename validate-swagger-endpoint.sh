@@ -78,7 +78,7 @@ do
           echo "Skipping validation of Endpoint: $line"
        else
           #Replace '/getPaymentMetadata/{id}/{providerOrCollaboratorUuid}' -> '/getPaymentMetadata/*/*' for searching
-          search_for_path_after_replacing=$(echo "$line" | sed --expression='s/{[^}]*}/*/g')
+          search_for_path_after_replacing=$(echo "$line" | sed --expression='s/{[^}]*}/.*/g')
 
           #DEBUGGING ECHO
 #          echo "Validating API Endpoint: '$search_for_path_after_replacing'"
